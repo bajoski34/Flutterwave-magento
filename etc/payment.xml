@@ -6,7 +6,7 @@
 		</group>
 	</groups>
 	<methods>
-		<method name="flutterwavepayment">
+		<method name="flutterwave_payment">
 			<allow_multiple_address>1</allow_multiple_address>
 		</method>
 	</methods>

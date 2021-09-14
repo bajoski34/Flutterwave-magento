@@ -1,6 +1,6 @@
 <?php
  
-namespace Flutterwave\Flutterwavepayments\Model\Ui;
+namespace Flutterwave\Payment\Model\Ui;
 
 use Magento\Checkout\Model\ConfigProviderInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;
@@ -26,6 +26,7 @@ final class ConfigProvider implements ConfigProviderInterface
    */
   public function getConfig()
   {
+
         $public_key = $this->scopeConfig->getValue('payment/flutterwave/live_public_key', $this->scopeStore);
         $secret_key = $this->scopeConfig->getValue('payment/flutterwave/live_secret_key', $this->scopeStore);
         $api_url = 'https://api.flutterwave.com/v3/';
@@ -43,7 +44,7 @@ final class ConfigProvider implements ConfigProviderInterface
         return [
 
             'payment' => [
-                'flutterwavepayment' => [
+                'flutterwave' => [
                     'public_key' => $public_key,
                     'modal_title' => $modal_title,
                     'modal_desc' => $modal_desc,

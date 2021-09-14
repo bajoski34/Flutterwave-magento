@@ -2,14 +2,16 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
 	<default>
 		<payment>
-			<flutterwavepayment>
-				<active>1</active>
-				<model>Flutterwave\Flutterwavepayments\Model\Payment\RavePayment</model>
+			<flutterwave_payment>
+				<debug>1</debug>
+				<active>0</active>
+				<integration_type>inline</integration_type>
+				<model>Flutterwave\Payment\Model\Payment\Flutterwave</model>
 				<order_status>pending</order_status>
-				<title>Flutterwave Payment Gateway</title>
+				<title>Credit/Debit Cards (Powered by Flutterwave)</title>
 				<allowspecific>0</allowspecific>
 				<group>Offline</group>
-			</flutterwavepayment>
+			</flutterwave_payment>
 		</payment>
 	</default>
 </config>

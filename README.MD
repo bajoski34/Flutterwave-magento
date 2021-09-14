@@ -22,21 +22,21 @@ Make collections with the offical flutterwave package on your Magento Site.
 
 ### Composer
 
-`composer require flutterwave/flutterwavepayments`
+`composer require flutterwave/module-payment`
 
 ### Manual Installation
 
 - Click the Download Zip button and save to your local machine.
 - Unpack(Extract) the archive.
-- Create a **Flutterwave/Flutterwavepayments** folder in your Magento's **app/code** directory.
-- Copy the content into your Magento's **app/code/Flutterwave/Flutterwavepayments** directory.
+- Create a **Flutterwave/Payment** folder in your Magento's **app/code** directory.
+- Copy the content into your Magento's **app/code/Flutterwave/Payments** directory.
 
-### Enable the Rave Payments module:
+### Enable the Flutterwave Payments module:
 
 - From your commandline, in your magento root directory, run
 
 ```bash
-php bin/magento module:enable Flutterwave_Flutterwavepayments --clear-static-content
+php bin/magento module:enable Flutterwave_Payment --clear-static-content
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```
@@ -46,4 +46,3 @@ php bin/magento setup:di:compile
 ### Configure the plugin
 
 Configuration can be done using the Administrator section of your Magento store.
-

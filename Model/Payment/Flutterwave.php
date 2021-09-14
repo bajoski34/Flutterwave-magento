@@ -1,11 +1,11 @@
 <?php
 
-namespace Flutterwave\Flutterwavepayments\Model\Payment;
+namespace Flutterwave\Payment\Model\Payment;
 
-class FlutterwavePayment extends \Magento\Payment\Model\Method\AbstractMethod
+class Flutterwave extends \Magento\Payment\Model\Method\AbstractMethod
 {
 
-    protected $_code = "flutterwavepayment";
+    protected $_code = "flutterwave";
     protected $_isOffline = false;
 
     public function isAvailable(

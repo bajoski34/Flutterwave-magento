@@ -10,8 +10,8 @@ define(
         'use strict';
         rendererList.push(
             {
-                type: 'ravepayment',
-                component: 'Flutterwave_Flutterwavepayments/js/view/payment/method-renderer/flutterwavepayment-method'
+                type: 'flutterewave',
+                component: 'Flutterwave_Payments/js/view/payment/method-renderer/flutterwave-method'
             }
         );
         return Component.extend({});

@@ -18,9 +18,9 @@
                                                             <!-- merge payment method renders here -->
                                                             <item name="children" xsi:type="array">
                                                                 <item name="flutterwaveayment" xsi:type="array">
-                                                                    <item name="component" xsi:type="string">Flutterwave_Flutterwavepayments/js/view/payment/fluttwerwavepayment</item>
+                                                                    <item name="component" xsi:type="string">Flutterwave_Payments/js/view/payment/flutterwave</item>
                                                                     <item name="methods" xsi:type="array">
-                                                                        <item name="flutterwavepayment" xsi:type="array">
+                                                                        <item name="flutterwave" xsi:type="array">
                                                                             <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
                                                                         </item>
                                                                     </item>

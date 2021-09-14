@@ -1,6 +1,6 @@
 <?php
 
-namespace Flutterwave\Flutterwavepayments\Model\Payment\Source;
+namespace Flutterwave\Payment\Model\Payment\Source;
 
 use Magento\Framework\Option\ArrayInterface;
 
@@ -11,20 +11,20 @@ class Currency implements ArrayInterface
   {
     return [
       [
-        'value' => 'both',
-        'label' => 'All',
+        'value' => 'NGN',
+        'label' => 'Naira',
       ],
       [
-        'value' => 'card',
-        'label' => 'Card Only'
+        'value' => 'KES',
+        'label' => 'Kenyan Shelings'
       ],
       [
-        'value' => 'account',
-        'label' => 'Account Only'
+        'value' => 'USD',
+        'label' => 'US Dollars'
       ],
       [
-        'value' => 'ussd',
-        'label' => 'USSD only'
+        'value' => 'UGX',
+        'label' => 'Uganda'
       ],
       [
         'value' => 'PayPal',

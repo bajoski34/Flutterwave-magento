@@ -1,6 +1,6 @@
 <?php
 
-namespace Flutterwave\Flutterwavepayments\Model\Payment\Source;
+namespace Flutterwave\Payment\Model\Payment\Source;
 
 use Magento\Framework\Option\ArrayInterface;
 

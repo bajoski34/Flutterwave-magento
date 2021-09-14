@@ -1,12 +1,12 @@
 {
-    "name": "flutterwave/flutterwavepayments",
+    "name": "flutterwave/module-payment",
     "description": "Official Flutterwave package for Magento 2",
     "type": "magento2-module",
     "version": "1.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Flutterwave\\Flutterwavepayments\\": ""
+            "Flutterwave\\Payment\\": ""
         },
         "files": [ "registration.php"]
     },

@@ -19,7 +19,7 @@ define([
   
     return Component.extend({
       defaults: {
-        template: "Flutterwave_Flutterwavepayments/payment/flutterwavepayment",
+        template: "Flutterwave_Payments/payment/flutterwave",
         customObserverName: null
       },
   
@@ -37,7 +37,7 @@ define([
       },
   
       getCode: function() {
-        return "flutterwavepayment";
+        return "flutterwave";
       },
   
       getData: function() {
@@ -49,8 +49,8 @@ define([
         
       getGuestEmail: function () {
             return quote.guestEmail;
-      }
-  
+      },
+      
       isActive: function() {
         return true;
       },
