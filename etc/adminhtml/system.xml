@@ -8,7 +8,7 @@
 					<label>Flutterwave</label>
 					<comment><![CDATA[Accepting payments globally just got easier.<br/>Flutterwave lets you receive payments both locally and internationally with no issues.]]></comment>
           <fieldset_css>complex flutterwave-section</fieldset_css>
-          <frontend_model>Flutterwave\Payment\Block\Adminhtml\System\Config\Fieldset\Payment</frontend_model>
+          <frontend_model>Flutterwave\Payments\Block\Adminhtml\System\Config\Fieldset\Payment</frontend_model>
           <attribute type="displayIn">recommended_solutions</attribute>
 
 					<field id="active" showInDefault="1" showInStore="0" showInWebsite="1" sortOrder="6" translate="label" type="select">
@@ -18,7 +18,7 @@
 					</field>
 				<field id="flw_webhook" translate="label comment" type="label" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Webhook URL</label>
-                    <frontend_model>Flutterwave\Payment\Block\Adminhtml\System\Config\Fieldset\Webhook</frontend_model>
+                    <frontend_model>Flutterwave\Payments\Block\Adminhtml\System\Config\Fieldset\Webhook</frontend_model>
                 </field>
 					<field id="test_mode" showInDefault="1" showInStore="0" showInWebsite="1" sortOrder="7" translate="label" type="select">
 						<label>Test Mode</label>
@@ -65,13 +65,13 @@
 					</field>
 					<field id="payment_method" showInDefault="1" showInStore="0" showInWebsite="1" sortOrder="18" translate="label" type="select">
 						<label>Payment Method</label>
-						<source_model>Flutterwave\Payment\Model\Payment\Source\Currency</source_model>
+						<source_model>Flutterwave\Payments\Model\Payment\Source\Currency</source_model>
             <config_path>payment/flutterwave/payment_method</config_path>
 						<comment><![CDATA[(Optional) The payment modal to be displayed to the customer. Default: All]]></comment>
 					</field>
 					<field id="country" showInDefault="1" showInStore="0" showInWebsite="1" sortOrder="12" translate="label" type="select">
 						<label>Merchant Country</label>
-						<source_model>Flutterwave\Payment\Model\Payment\Source\Country</source_model>
+						<source_model>Flutterwave\Payments\Model\Payment\Source\Country</source_model>
             <config_path>payment/flutterwave/country</config_path>
 						<comment><![CDATA[(Optional) Default: NG: Nigeria]]></comment>
 					</field>

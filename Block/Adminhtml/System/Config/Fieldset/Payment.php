@@ -6,7 +6,7 @@
  * This file is part of Flutterwave/Flutterwavepayments.
  */
 
-namespace Flutterwave\Payment\Block\Adminhtml\System\Config\Fieldset;
+namespace Flutterwave\Payments\Block\Adminhtml\System\Config\Fieldset;
 
 /**
  * Fieldset renderer for Flutterwave payment

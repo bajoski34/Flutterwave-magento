@@ -1,6 +1,6 @@
 <?php
 
-namespace Flutterwave\Payment\Model\Payment;
+namespace Flutterwave\Payments\Model\Payment;
 
 class Flutterwave extends \Magento\Payment\Model\Method\AbstractMethod
 {

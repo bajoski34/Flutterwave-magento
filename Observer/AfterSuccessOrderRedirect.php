@@ -1,6 +1,6 @@
 <?php
 
-namespace Flutterwave\Payment\Observer;
+namespace Flutterwave\Payments\Observer;
 
 class AfterSuccessOrderRedirect implements \Magento\Framework\Event\ObserverInterface
 {

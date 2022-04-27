@@ -2,8 +2,15 @@
 <?xml version="1.0"?>
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
     <!-- Verify Payment -->
-    <route url="/v3/transactions/:id/verify" method="GET">
-        <service class="Flutterwave\Payment\Api\PMinterface" method="verifyPayment"/>
+    <route url="/v1/flutterwave/transactions/:id/verify" method="GET">
+        <service class="Flutterwave\Payments\Api\ServiceInterface" method="verifyPayment"/>
+        <resources>
+            <resource ref="anonymous" />
+        </resources>
+    </route>
+    <!-- Generate Payment Link -->
+    <route url="/v1/flutterwave/pay" method="POST">
+        <service class="Flutterwave\Payments\Api\ServiceInterface" method="generatePaymentLink"/>
         <resources>
             <resource ref="anonymous" />
         </resources>

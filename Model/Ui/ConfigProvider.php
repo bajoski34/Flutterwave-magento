@@ -26,7 +26,6 @@ final class ConfigProvider implements ConfigProviderInterface
    */
   public function getConfig()
   {
-
         $public_key = $this->scopeConfig->getValue('payment/flutterwave/live_public_key', $this->scopeStore);
         $secret_key = $this->scopeConfig->getValue('payment/flutterwave/live_secret_key', $this->scopeStore);
         $api_url = 'https://api.flutterwave.com/v3/';

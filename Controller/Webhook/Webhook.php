@@ -1,6 +1,6 @@
 <?php
 
-namespace Flutterwave\Payment\Controller\Payment;
+namespace Flutterwave\Payment\Controller\Webhook;
 
 use Magento\Framework\App\CsrfAwareActionInterface;
 use Magento\Framework\App\RequestInterface;
@@ -11,7 +11,6 @@ use Magento\Framework\App\Request\InvalidRequestException;
 
         public function execute()
 	    {
-
 	    	$textDisplay = new \Magento\Framework\DataObject(array('text',
             '<script>
             window.location = "https://www.opalnet.co.ke/success";
