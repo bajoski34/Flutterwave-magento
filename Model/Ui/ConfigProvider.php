@@ -1,6 +1,6 @@
 <?php
  
-namespace Flutterwave\Payment\Model\Ui;
+namespace Flutterwave\Payments\Model\Ui;
 
 use Magento\Checkout\Model\ConfigProviderInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;

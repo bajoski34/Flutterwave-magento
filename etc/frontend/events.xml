@@ -2,6 +2,6 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
     <event name="flutterwave_payment_success_order_redirect">
-        <observer name="success_order_redirect" instance="Flutterwave\Payment\Observer\AfterSuccessOrderRedirect" />
+        <observer name="success_order_redirect" instance="Flutterwave\Payments\Observer\AfterSuccessOrderRedirect" />
     </event>
 </config>
