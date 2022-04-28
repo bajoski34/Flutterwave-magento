@@ -4,12 +4,6 @@
     "type": "magento2-module",
     "version": "1.0",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Flutterwave\\Payments\\": ""
-        },
-        "files": [ "registration.php"]
-    },
     "authors": [
         {
             "name": "Flutterwave Developers",
@@ -17,5 +11,14 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "magento/module-checkout": ">=100.3.3",
+        "magento/module-payment": ">=100.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flutterwave\\Payments\\": ""
+        },
+        "files": [ "registration.php"]
+    }
 }
