@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+                <value id="flutterwave-sub" type="host">*.ravepay.co</value>
+                <value id="flutterwave-redirect" type="host">*.flutterwave.com</value>
+                <value id="flutterwave-v3" type="host">https://checkout-v3-ui-prod.tls-flutterwave.com</value>
+                <value id="flutterwave-v3-ui" type="host">https://checkout.flutterwave.com/v3.js</value>
+            </values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="flutterwave-sub" type="host">*.ravepay.co</value>
+                <value id="flutterwave-redirect" type="host">*.flutterwave.com</value>
+                <value id="flutterwave-v3" type="host">https://checkout-v3-ui-prod.tls-flutterwave.com</value>
+                <value id="flutterwave-v3-ui" type="host">https://checkout.flutterwave.com/v3.js</value>
+            </values>
+        </policy>
+        <policy id="frame-src">
+            <values>
+                <value id="flutterwave-sub" type="host">*.ravepay.co</value>
+                <value id="flutterwave-redirect" type="host">*.flutterwave.com</value>
+                <value id="flutterwave-v3" type="host">https://checkout-v3-ui-prod.tls-flutterwave.com</value>
+                <value id="flutterwave-v3-ui" type="host">https://checkout.flutterwave.com/v3.js</value>
+
+            </values>
+        </policy>
+        <policy id="frame-ancestors">
+            <values>
+                <value id="flutterwave-sub" type="host">*.ravepay.co</value>
+                <value id="flutterwave-redirect" type="host">*.flutterwave.com</value>
+                <value id="flutterwave-v3" type="host">https://checkout-v3-ui-prod.tls-flutterwave.com</value>
+                <value id="flutterwave-v3-ui" type="host">https://checkout.flutterwave.com/v3.js</value>
+
+            </values>
+        </policy>
+        <policy id="font-src">
+            <values>
+                <value id="flutterwave-sub" type="host">*.ravepay.co</value>
+                <value id="flutterwave-redirect" type="host">*.flutterwave.com</value>
+                <value id="flutterwave-v3" type="host">https://checkout-v3-ui-prod.tls-flutterwave.com</value>
+                <value id="flutterwave-v3-ui" type="host">https://checkout.flutterwave.com/v3.js</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>
