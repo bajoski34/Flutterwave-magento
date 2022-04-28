@@ -13,5 +13,15 @@
 				<group>Offline</group>
 			</flutterwavepayment>
 		</payment>
+		<csp>
+			<mode>
+                <storefront>
+                    <report_only>0</report_only>
+                </storefront>
+                <admin>
+                    <report_only>0</report_only>
+                </admin>
+            </mode>
+		</csp
 	</default>
 </config>
