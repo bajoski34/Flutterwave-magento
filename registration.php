@@ -1,6 +1,5 @@
-<?php
-\Magento\Framework\Component\ComponentRegistrar::register(
-    \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Flutterwave_Payments',
-    __DIR__
-);
+<?php 
+
+use Magento\Framework\Component\ComponentRegistrar;
+
+ComponentRegistrar::register(ComponentRegistrar::MODULE,'Flutterwave_Payments',__DIR__);

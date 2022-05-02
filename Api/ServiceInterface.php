@@ -1,10 +1,22 @@
 <?php 
 
+namespace Flutterwave\Payments\Api;
 
-
-class ServiceInterface 
+interface ServiceInterface 
 {
-    public function verifyPayment(){}
-
-    public function generatePaymentLink(){}
+    /**
+     * Returns Verify Url
+     *
+     * @api
+     * @return string Verify Url
+     */
+    public function verifyPayment();
+    
+    /**
+     * Returns Payment Link
+     *
+     * @api
+     * @return string Payment Link
+     */
+    public function generatePaymentLink();
 }

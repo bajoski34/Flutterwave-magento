@@ -1,6 +1,6 @@
 <?php
 
-namespace Flutterwave\Payments\Api;
+namespace Flutterwave\Payments\Model\Api;
 
 use Flutterwave\Payments\Api\ServiceInterface;
 use Magento\Framework\Webapi\ServiceInputProcessor;
